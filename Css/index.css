@@ -6,7 +6,7 @@ body , html {
 }
 .maincontainer {
 	height: 100vh;
-	background: #232323;
+	background: #191919;
 }
 .container {
 
@@ -33,7 +33,7 @@ body , html {
 	font-size: 55px;
 	width: 100%;
 	text-align: center;
-	color: #5e5f60;
+	color: #a5934f;
 	background-color: transparent;
 	line-height: 50px;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
@@ -53,7 +53,7 @@ body , html {
 	font-size: 22px;
 }
 .navbar {
-	background: #232323;
+	background: #191919;
 	font-family: Madeleina Sans;
 	color: #5b5b5b;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
@@ -61,7 +61,7 @@ body , html {
 	-webkit-font-smoothing: antialiased !important;	
 }
 .btnportfolio:hover , .btnabout:hover  , .btncontact:hover  {
-	color:white !important;
+	color:#a5934f !important;
 	cursor:pointer;
 	transition: 0.2s;
 }
