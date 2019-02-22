@@ -1,15 +1,15 @@
 body , html {
 	width: 100%;
-	height: 100%;
-	overflow: hidden;
-		
+	height: 100vh;
+}
+@media only screen and (min-width : 1200px) {
+    .container { max-width: 1400px !important; } 
 }
 .maincontainer {
 	height: 100vh;
-	background: #191919;
-}
-.container {
-
+	background: #232323;
+	padding: 0px;
+	margin:0px;
 }
 #particles-js {
 	height: 100%;
@@ -17,8 +17,8 @@ body , html {
 	display: flex;
 	justify-content: left;
 	align-items: center;
-	font-family: Mont DEMO;
-	font-weight: bold;
+	padding: 0px;
+	margin:0px;
 }
 .lbltitle {
 	width: 100%;
@@ -48,12 +48,14 @@ body , html {
 }
 .particles-js-canvas-el {
 	position: absolute;
+	padding: 0px;
+	margin:0px;
 }
 .nav.navbar-nav {
 	font-size: 22px;
 }
 .navbar {
-	background: #191919;
+	background: #232323;
 	font-family: Madeleina Sans;
 	color: #5b5b5b;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);

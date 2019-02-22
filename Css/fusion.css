@@ -1,0 +1,49 @@
+html , body {
+	height: 100%;
+	width: 100%;
+	overflow-y: hidden;
+	}
+@media only screen and (min-width : 1200px) {
+    .container { max-width: 1400px !important; } 
+}
+.maincontainer {
+	height: 100vh;
+	background-color: #232323;
+}
+.lblwelcome {
+	font-family: Lemon/Milk; 
+	color:white;
+	font-size: 40px;
+	font-weight: bold;
+}
+.lblwelcome1 {
+	font-family: Mont DEMO; 
+	color:#c7c8c9;
+	font-size: 20px;
+}
+.hr1 {
+	width: 40%;
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.50), rgba(0, 0, 0, 0));
+}
+.lblwhat {
+	font-family: Mont DEMO;
+	color: #a1a2a3;
+	font-size: 15px;
+	width: 50%;
+}
+.btncomming {
+	padding: 8px 15px;
+	background-color: transparent;
+	border: 1px solid #FB8C00;
+	color:white;
+	cursor: pointer;
+	transition: all 0.2s;
+	border-radius: 5px;
+	padding-top:7px !important;
+	margin-top: 5px;
+}
+.btncomming:hover {
+	background-color: #FB8C00 !important;
+}
