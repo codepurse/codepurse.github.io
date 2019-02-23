@@ -2,4 +2,26 @@
   .lblwelcome {
   	font-size: 40px;
   }
+  .lblwhat {
+  	width: 100%;
+  }
+  .btncoming {
+  	margin-top: 10px;
+  }
+  .lblall {
+  	width: 100%;
+  }
+  .btn-rounded {
+    margin:auto;
+  }
+  .button {
+    display: inline-block;
+    width: 100%;
+    margin-top:10px;
+    margin-bottom: 10px;
+  }
 }
+
+
+
+/* Fusion media */
