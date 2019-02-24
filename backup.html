@@ -1,0 +1,78 @@
+<div class="table-responsive">
+						<table class="table table-borderless table-hover" style="cursor: pointer;">
+							<thead>
+								<th style="font-family: Mont DEMO;font-size: 17px;">Name</th>
+								<th style="font-family: Mont DEMO;;font-size: 17px;">Categories</th>
+								<th style="font-family: Mont DEMO;font-size: 17px;">Language/Frameworks</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Travel</td>
+									<td>Website Design</td>
+									<td>HTML-CSS-Bootstrap4-Javascript-Fusion</td>
+								</tr>
+								<tr>
+									<td>Food</td>
+									<td>Website Design</td>
+									<td>HTML-CSS-Bootstrap4-Javascript</td>
+								</tr>
+								<tr>
+									<td>VelcoAsia</td>
+									<td>Website Design/Company</td>
+									<td>HTML-CSS-Bootstrap4</td>
+								</tr>
+								<tr>
+									<td>Datask</td>
+									<td>Website Design/Company</td>
+									<td>HTML-CSS-Bootstrap4-Javascript</td>
+								</tr>
+								<tr>
+									<td>Employee Management</td>
+									<td>Website Application</td>
+									<td>HTML-CSS-Bootstrap4-Javascript-Asp.netMVC-C#</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+
+
+					@media 
+only screen and (max-width: 500px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+/* Force table to not be like tables anymore */
+table, thead, tbody, th, td, tr { 
+    display: block; 
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+tr { border: 1px solid #747475; }
+
+td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #747475; 
+    position: relative;
+    padding-left: 50%; 
+    border-radius: 10px;
+}
+
+td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+}
+
+/* Fusion media */

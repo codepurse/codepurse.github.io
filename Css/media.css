@@ -1,6 +1,10 @@
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 450px) {
   .lblwelcome {
   	font-size: 40px;
+    width: 100%;
+  }
+  .lblwelcome1 {
+    font-size: 35px;
   }
   .lblwhat {
   	width: 100%;
@@ -20,8 +24,15 @@
     margin-top:10px;
     margin-bottom: 10px;
   }
+  .lblaboutmesub {
+    width: 100%;
+  }
+  .lblwhatisfusion {
+    font-size: 23px;
+  }
+  .lblwhatisfusion1 {
+    width: 100%;
+  }
 }
 
 
-
-/* Fusion media */

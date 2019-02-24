@@ -1,9 +1,10 @@
 body , html {
 	width: 100%;
 	height: 100vh;
+	background-color: #232323;
 }
 @media only screen and (min-width : 1200px) {
-    .container { max-width: 1400px !important; } 
+    .container { max-width: 1366px !important; } 
 }
 .maincontainer {
 	height: 100vh;
@@ -26,6 +27,7 @@ body , html {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
+	color: #a5934f;
 }
 .lblwelcome {
 	font-family: Mont DEMO;
@@ -66,4 +68,44 @@ body , html {
 	color:#a5934f !important;
 	cursor:pointer;
 	transition: 0.2s;
+}
+
+.lblaboutme {
+	color: #a5934f;
+	font-family: Madeleina Sans;
+	font-size: 35px;
+	margin-left: 10px;
+}
+.lblaboutmesub {
+	font-family: Madeleina Sans;
+	font-size: 20px;
+	color: #747475;
+	font-style: italic;
+	width: 50%;
+}
+.lblmeet {
+	font-family: Madeleina Sans;
+	color: #a5934f;
+	font-size: 35px;
+}
+.lblwhatisfusion {
+	font-family: Madeleina Sans;
+	font-size: 24px;
+	color: #747475;
+}
+.lblwhatisfusion1 {
+	font-family: Madeleina Sans;
+	font-size: 20px;
+	color: #747475;
+	width: 50%;
+}
+.lblcomingsoon {
+	font-family: Madeleina Sans;
+	font-size: 20px;
+	color: #747475;
+}
+.lblworks {
+	font-family: Madeleina Sans;
+	color: #a5934f;
+	font-size: 35px;
 }
