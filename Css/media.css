@@ -69,3 +69,23 @@
     padding: 0px;
   }
 }
+
+
+@font-face {
+  font-family: "Retronoid";
+  src: url("../Font/retronoid/Retronoid.ttf");
+  src:
+  url("../Font/retronoid/Retronoid.otf") format("opentype");
+}
+@font-face {
+  font-family: "Muli";
+  src: url("../Font/Muli/muli/Muli.ttf");
+}
+@font-face {
+  font-family: "Mont DEMO";
+  src: url("../Font/mont/Mont-HeavyDEMO.otf") format("opentype");
+}
+@font-face {
+  font-family: "Mont DEMOlight";
+  src: url("../Font/mont/Mont-ExtraLightDEMO.otf") format("opentype");
+}
