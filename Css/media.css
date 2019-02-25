@@ -35,4 +35,37 @@
   }
 }
 
+@media screen and (max-width: 760px) {
+  .lblwelcome {
+    width: 100%;
+  }
+  .lblwhat {
+    width: 100%;
+  }
+  .lblall {
+    width: 100%;
+  }
+  .lblaboutmesub {
+    width: 100%;
+  }
+  .lblwhatisfusion1 {
+    width: 100%;
+  }
+  .lblfooter {
+    text-align: center;
+  }
+  .coltel, .colsocial {
+    text-align: center !important;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
 
+@media screen and (max-width: 982px) {
+  .divider hr {
+    width: 100% !important;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.50), rgba(0, 0, 0, 0));
+    padding: 0px;
+  }
+}
