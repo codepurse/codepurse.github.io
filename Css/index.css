@@ -117,6 +117,13 @@ body , html {
 	font-family: Madeleina Sans;
 	font-size: 21px;
 }
+.img-food, .img-travel, .img-velco, .img-employee, .img-datask {
+	filter: brightness(100%);
+	transition: all 0.3s;
+}
+.img-food:hover, .img-travel:hover, .img-velco:hover, .img-employee:hover, .img-datask:hover {
+	filter: brightness(50%);
+}
 .card-text {
 	font-family: Madeleina Sans;
 	color: #747475;
