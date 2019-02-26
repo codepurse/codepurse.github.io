@@ -154,6 +154,12 @@ body , html {
 	color: #a5934f;
 	font-size: 35px;
 }
+.lblconcept {
+	font-family: Madeleina Sans;
+	color: #747475;
+	font-size: 20px;
+	text-align: center;
+}
 .lbltel {
 	font-family: muli;
 	color: #747475;
